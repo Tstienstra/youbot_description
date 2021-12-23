@@ -126,7 +126,7 @@
         <origin xyz="0 0 0" rpy="0 0 0"/>
         <!--<mesh filename="package://youbot_description/meshes/youbot_base/youbot_wheel.stl" />-->
         <geometry>
-          <sphere radius="${wheel_radius}"/>
+          <mesh filename="package://youbot_description/meshes/youbot_base/front-left_wheel.dae"/>
         </geometry>
         <material name="Orange"/>
       </visual>
@@ -174,8 +174,7 @@
       <visual>
         <origin xyz="0 0 0" rpy="0 0 0"/>
         <geometry>
-          <!--<mesh filename="package://youbot_description/meshes/youbot_base/youbot_wheel.stl" />-->
-          <sphere radius="${wheel_radius}"/>
+          <mesh filename="package://youbot_description/meshes/youbot_base/front-right_wheel.dae"/>
         </geometry>
         <material name="Orange"/>
       </visual>
@@ -224,8 +223,7 @@
       <visual>
         <origin xyz="0 0 0" rpy="0 0 0"/>
         <geometry>
-          <!--<mesh filename="package://youbot_description/meshes/youbot_base/youbot_wheel.stl" />-->
-          <sphere radius="${wheel_radius}"/>
+          <mesh filename="package://youbot_description/meshes/youbot_base/back-left_wheel.dae"/>
         </geometry>
         <material name="Orange"/>
       </visual>
@@ -273,8 +271,7 @@
       <visual>
         <origin xyz="0 0 0" rpy="0 0 0"/>
         <geometry>
-          <!--<mesh filename="package://youbot_description/meshes/youbot_base/youbot_wheel.stl" />-->
-          <sphere radius="${wheel_radius}"/>
+          <mesh filename="package://youbot_description/meshes/youbot_base/back-right_wheel.dae"/>
         </geometry>
         <material name="Orange"/>
       </visual>
