@@ -18,11 +18,11 @@
 	<xacro:property name="joint_5_limit_lower" value="${M_PI * -167.5 /180}" />
 	<xacro:property name="joint_5_limit_upper" value="${M_PI * 167.5 /180}" />
 
-	<xacro:property name="joint_effort_1" value="${effort_multiplier * 82.7 * 156 / 1000}" />
-	<xacro:property name="joint_effort_2" value="${effort_multiplier * 82.7 * 156 / 1000}" />
-	<xacro:property name="joint_effort_3" value="${effort_multiplier * 82.7 * 100 / 1000}" />
-	<xacro:property name="joint_effort_4" value="${effort_multiplier * 58.8 * 71 / 1000}" />
-	<xacro:property name="joint_effort_5" value="${effort_multiplier * 58.8 * 71 / 1000}" />
+	<xacro:property name="joint_effort_1" value="${effort_multiplier * 9.5}" />
+	<xacro:property name="joint_effort_2" value="${effort_multiplier * 9.5}" />
+	<xacro:property name="joint_effort_3" value="${effort_multiplier * 6.0}" />
+	<xacro:property name="joint_effort_4" value="${effort_multiplier * 2.0}" />
+	<xacro:property name="joint_effort_5" value="${effort_multiplier * 1.0}" />
 
 	<!-- dynamic properties : mass (kg) Alu data sheet -->
 	<xacro:property name="link_0_mass" value="0.845" />
