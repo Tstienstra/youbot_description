@@ -10,7 +10,7 @@ This fork introduces is focused on the use of the Youbot in Gazebo under ROS Noe
 cd <your catkin_ws>/src
 git clone git@github.com:Tstienstra/youbot_description.git -b noetic-devel
 git clone git@github.com:Tstienstra/youbot_simulation.git
-- `sudo apt-get install ros-${ROS_DISTRO}-ros-control ros-${ROS_DISTRO}-ros-controllers ros-${ROS_DISTRO}-gazebo-ros-control
+sudo apt-get install ros-${ROS_DISTRO}-ros-control ros-${ROS_DISTRO}-ros-controllers ros-${ROS_DISTRO}-gazebo-ros-control
 sudo apt install ros-${ROS_DISTRO}-pr2-msgs
 cd ..
 catkin_make
